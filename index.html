@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bing Bing Crochet - Custom Crochet Bag</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">Bing Bing Crochet</a>
+            <button class="hamburger">☰</button>
+            <ul class="menu">
+                <li><a href="#warna">Warna</a></li>
+                <li><a href="#model">Model</a></li>
+                <li><a href="#detail">Detail</a></li>
+                <li><a href="#cara-pesan">Cara Pesan</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="hero-text">
+                <h1>Tas Rajut Custom, Sesuai Gayamu</h1>
+                <p>Pilih warna benang, model, ukuran, sampai hiasan bunga atau charm. Semua dirajut tangan khusus
+                    untukmu.</p>
+                <a href="#warna" class="btn">Mulai Custom</a>
+            </div>
+
+            <div class="hero-image">
+                <img src="assets/images/hero-bag.jpg" alt="Tas rajut custom Bing Bing Crochet">
+            </div>
+        </section>
+        <section id="warna">
+            <h2>Pilih Warna Benang</h2>
+            <p>Klik warna favoritmu untuk melihat preview tas.</p>
+
+            <div class="pilihan-warna">
+                <button class="swatch cream aktif" data-color="#FFF3DC" data-name="Cream" title="Cream"></button>
+                <button class="swatch pink" data-color="#F7C6D0" data-name="Pink Pastel" title="Pink Pastel"></button>
+                <button class="swatch kuning" data-color="#FFE08A" data-name="Kuning Lemon"
+                    title="Kuning Lemon"></button>
+                <button class="swatch hijau" data-color="#B9D7A8" data-name="Hijau Sage" title="Hijau Sage"></button>
+                <button class="swatch biru" data-color="#BFDDF2" data-name="Biru Langit" title="Biru Langit"></button>
+                <button class="swatch cokelat" data-color="#C9A27E" data-name="Cokelat Susu"
+                    title="Cokelat Susu"></button>
+            </div>
+
+            <div class="preview">
+                <div class="preview-box"></div>
+                <p>Warna dipilih: <span id="nama-warna">Cream</span></p>
+            </div>
+        </section>
+        <section id="model">
+            <h2>Pilih Model & Ukuran</h2>
+            <p>Tiga model favorit yang bisa kamu sesuaikan ukurannya.</p>
+
+            <div class="model-list">
+                <article class="kartu">
+                    <img src="assets/images/tote.jpg" alt="Tote bag rajut">
+                    <h3>Tote Bag</h3>
+                    <p>Lega untuk laptop, buku, dan perlengkapan kuliah.</p>
+                    <p class="ukuran">Ukuran: M / L</p>
+                    <p class="harga">Mulai Rp150.000</p>
+                </article>
+
+                <article class="kartu">
+                    <img src="assets/images/shoulder.jpg" alt="Shoulder bag rajut">
+                    <h3>Shoulder Bag</h3>
+                    <p>Pas di bahu, cocok untuk jalan-jalan dan nongkrong.</p>
+                    <p class="ukuran">Ukuran: S / M / L</p>
+                    <p class="harga">Mulai Rp120.000</p>
+                </article>
+
+                <article class="kartu">
+                    <img src="assets/images/mini.jpg" alt="Mini bag rajut">
+                    <h3>Mini Bag</h3>
+                    <p>Imut dan ringan, muat HP, dompet, dan lip tint.</p>
+                    <p class="ukuran">Ukuran: S / M</p>
+                    <p class="harga">Mulai Rp85.000</p>
+                </article>
+            </div>
+        </section>
+        <section id="detail">
+            <h2>Tambahkan Detail Custom</h2>
+            <p>Bikin tasmu makin beda dengan hiasan pilihan.</p>
+
+            <div class="detail-wrap">
+            <div class="detail-list">
+                <div class="detail-item">
+                    <span class="ikon">🌸</span>
+                    <h3>Bunga Rajut</h3>
+                    <p>Bunga daisy, mawar, atau tulip yang dirajut tangan.</p>
+                    <p class="harga">+ Rp10.000</p>
+                </div>
+
+                <div class="detail-item">
+                    <span class="ikon">🍓</span>
+                    <h3>Charm Lucu</h3>
+                    <p>Gantungan buah, hewan, atau bintang di resleting.</p>
+                    <p class="harga">+ Rp8.000</p>
+                </div>
+
+                <div class="detail-item">
+                    <span class="ikon">🧶</span>
+                    <h3>Inisial Nama</h3>
+                    <p>Huruf inisial namamu dirajut di bagian depan tas.</p>
+                    <p class="harga">+ Rp15.000</p>
+                </div>
+
+                <div class="detail-item">
+                    <span class="ikon">🎀</span>
+                    <h3>Tali Custom</h3>
+                    <p>Pilih tali pendek, panjang, atau tali rantai.</p>
+                    <p class="harga">+ Rp12.000</p>
+                </div>
+            </div>
+            <div class="detail-video">
+                <video src="assets/videos/charm-rajut.mp4" autoplay muted loop playsinline></video>
+                <small>Video: @TheWorldCrochet</small>
+            </div>
+            </div> <!-- penutup detail-wrap -->
+        </section>
+        <section id="cara-pesan">
+            <h2>Cara Memesan</h2>
+
+            <ol class="langkah-list">
+                <li>
+                    <h3>Pilih Warna</h3>
+                    <p>Tentukan warna benang favoritmu.</p>
+                </li>
+                <li>
+                    <h3>Pilih Model & Ukuran</h3>
+                    <p>Tote, shoulder, atau mini bag dengan ukuran S, M, atau L.</p>
+                </li>
+                <li>
+                    <h3>Tambah Detail</h3>
+                    <p>Pilih hiasan bunga, charm, inisial, atau tali custom.</p>
+                </li>
+                <li>
+                    <h3>Hubungi Kami</h3>
+                    <p>Kirim pilihanmu lewat WhatsApp, lalu tas mulai dirajut.</p>
+                </li>
+            </ol>
+
+            <h3>Pertanyaan yang Sering Ditanyakan</h3>
+
+            <div class="faq">
+                <div class="faq-item">
+                    <button class="faq-question">Berapa lama proses pembuatannya?</button>
+                    <div class="faq-answer">
+                        <p>Sekitar 5 sampai 10 hari kerja, tergantung model dan banyaknya detail.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">Apakah bisa kirim ke luar kota?</button>
+                    <div class="faq-answer">
+                        <p>Bisa, kami kirim ke seluruh Indonesia lewat jasa ekspedisi.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">Bagaimana cara membayar?</button>
+                    <div class="faq-answer">
+                        <p>Pembayaran lewat transfer bank atau e-wallet, DP 50% di awal.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="kontak">
+            <h2>Siap Pesan Tas Impianmu?</h2>
+            <p>Klik tombol di bawah, chat ke kami langsung terisi otomatis.</p>
+
+            <a href="https://wa.me/628112790567?text=Halo%20Bing%20Bing%20Crochet!%20Saya%20mau%20pesan%20tas%20rajut%20custom.%0AWarna:%20%0AModel:%20%0AUkuran:%20%0ADetail:%20"
+                class="btn btn-wa" target="_blank">
+                💬 Pesan via WhatsApp
+            </a>
+        </section>
+    </main>
+    <footer>
+        <p class="logo">Bing Bing Crochet</p>
+        <p>Tas rajut custom, dibuat dengan tangan dan sepenuh hati.</p>
+        <p>&copy; 2026 Bing Bing Crochet. All rights reserved.</p>
+    </footer>
+
+    <div class="popup" id="popup">
+        <div class="popup-isi">
+            <button class="popup-tutup" id="popup-tutup">&times;</button>
+            <img id="popup-gambar" src="assets/images/tote.jpg" alt="Foto tas">
+            <h3 id="popup-judul">Nama Tas</h3>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
